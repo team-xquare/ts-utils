@@ -1,0 +1,22 @@
+{
+  "name": "@xquare/utils",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/square-dsm/ts-utils.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/square-dsm/ts-utils/issues"
+  },
+  "homepage": "https://github.com/square-dsm/ts-utils#readme",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}
