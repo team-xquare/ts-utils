@@ -1,5 +1,10 @@
-describe("1+1", () => {
-  it("should equal 2", () => {
-    expect(1+1).toEqual(2);
+import { delay } from "./delay";
+
+describe("delay", () => {
+  it("delay(3000)은 3초를 기다린다", async () => {
+    const time1: number = +new Date();
+    await delay(3000);
+    const time2: number = +new Date();
+    expect(time2 - time1).toBeGreaterThan(3000);
   });
 });
