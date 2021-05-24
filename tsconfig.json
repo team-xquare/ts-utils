@@ -6,12 +6,14 @@
     "lib": [
       "esnext"
     ],
-    "outDir": "dist"
+    "outDir": "dist",
+    "types": ["jest", "node"]
   },
   "include": [
     "src/**/*.ts"
   ],
   "exclude": [
-    "src/**/*.spec.ts"
+    "node_modules", 
+    "test", 
   ]
 }
