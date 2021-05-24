@@ -1,6 +1,6 @@
 {
   "name": "@xquare/utils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "dist/index.js",
   "publishConfig": {
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/square-dsm/ts-utils.git"
+    "url": "git+https://github.com/TEAM-XQUARE/ts-utils.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/square-dsm/ts-utils/issues"
+    "url": "https://github.com/TEAM-XQUARE/ts-utils/issues"
   },
-  "homepage": "https://github.com/square-dsm/ts-utils#readme",
+  "homepage": "https://github.com/TEAM-XQUARE/ts-utils#readme",
   "devDependencies": {
     "@types/jest": "^26.0.23",
     "@types/node": "^15.6.0",
