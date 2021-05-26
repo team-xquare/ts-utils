@@ -9,6 +9,7 @@ export class Device{
     public static isClient() {
         return !this.isServer();
     }
+
     public static isMobileWeb() {
         if (this.isServer()) {
             return false;
@@ -18,6 +19,7 @@ export class Device{
         }
         return false;
     }
+    
     public static isMacOS() {
         if (this.isServer()) {
             return false;
