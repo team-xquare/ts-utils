@@ -1,7 +1,7 @@
 {
   "name": "@xquare/utils",
   "version": "1.0.6",
-  "description": "",
+  "description": "XQUARE typescript 통합 유틸",
   "main": "dist/index.js",
   "publishConfig": {
     "main": "dist/index.js",
