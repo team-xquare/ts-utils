@@ -1,6 +1,6 @@
 {
   "name": "@xquare/utils",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "",
   "main": "dist/index.js",
   "publishConfig": {
@@ -14,6 +14,11 @@
     "type": "git",
     "url": "git+https://github.com/TEAM-XQUARE/ts-utils.git"
   },
+  "keywords": [
+    "util",
+    "xquare",
+    "dsm"
+  ],
   "author": "",
   "license": "MIT",
   "bugs": {
