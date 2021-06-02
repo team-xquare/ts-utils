@@ -51,5 +51,8 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
+  },
+  "dependencies": {
+    "immer": "^9.0.2"
   }
 }
