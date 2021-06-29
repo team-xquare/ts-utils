@@ -105,6 +105,7 @@ dist/*.js
 
 # Test
 test
+*.spec.d.ts
 
 # IDE
 .idea
