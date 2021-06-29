@@ -1,6 +1,12 @@
 import { getDateDifference } from './Date';
 
 describe('getDateDifference', () => {
+  it("같은 날짜", () => {
+    const startDate: Date = new Date();
+    const endDate: Date = startDate;
+    const difference = getDateDifference(endDate, startDate);
+    expect(Object.values(difference)).toEqual([0, 0, 0, 0]);
+  });
   it('3초 뒤', async () => {
     const startDate: Date = new Date();
     const endDate: Date = new Date();
