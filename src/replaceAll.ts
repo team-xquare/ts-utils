@@ -3,11 +3,11 @@ function replaceAll(searchValue: string | RegExp, replaceValue: any): string {
 }
 
 const replaceAllFunctionInit = () => {
-  String.prototype.replaceAll = String.prototype.replaceAll || replaceAll;
+  String.prototype.replaceAll ||= replaceAll;
 };
 
 const replaceAllFunctionDowngrade = () => {
   String.prototype.replaceAll = replaceAll;
 };
 
-export { replaceAllFunctionInit, replaceAllFunctionDowngrade };
+export { replaceAll, replaceAllFunctionInit, replaceAllFunctionDowngrade };

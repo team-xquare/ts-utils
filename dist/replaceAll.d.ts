@@ -1,3 +1,7 @@
+declare function replaceAll(
+  searchValue: string | RegExp,
+  replaceValue: any
+): string;
 declare const replaceAllFunctionInit: () => void;
 declare const replaceAllFunctionDowngrade: () => void;
-export { replaceAllFunctionInit, replaceAllFunctionDowngrade };
+export { replaceAll, replaceAllFunctionInit, replaceAllFunctionDowngrade };
