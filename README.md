@@ -6,7 +6,7 @@ XQUARE typescript 공통 모듈입니다.
 
 ## Documentation
 
-이 패키지에 대한 자세한 설명은 아직없다 에서 확인할수 있습니다.
+이 패키지에 대한 자세한 설명은 https://github.com/team-xquare/ts-utils.wiki.git 에서 확인할수 있습니다.
 
 ## Release notes
 
