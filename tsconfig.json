@@ -6,6 +6,7 @@
     "lib": [
       "esnext"
     ],
+    "declaration": true,
     "outDir": "dist",
     "types": ["jest", "node"]
   },

@@ -1,8 +1,8 @@
-declare class Device {
+export declare class Device {
   static isServer(): boolean;
   static isClient(): boolean;
   static isMobileWeb(): boolean;
-  static isMacOS(): boolean;
+  static isMacOS(): any;
   static isIE(): boolean;
-  static getOSByUserAgent(): boolean;
+  static getOSByUserAgent(): false | 'ios' | 'android' | 'web';
 }
