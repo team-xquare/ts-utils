@@ -32,6 +32,12 @@ describe('replaceAll', () => {
     expect(p.replaceAll(searchValue, replaceValue)).toEqual(expectValue);
   });
   describe('replaceAllFunctionInit', () => {
+    beforeAll(() => {
+      $replaceAll = String.prototype.replaceAll;
+    });
+    beforeEach(() => {
+      String.prototype.replaceAll = $replaceAll;
+    });
     it('상위브라우저에서 replaceAll 작동', () => {
       replaceAllFunctionInit();
       expect(String.prototype.replaceAll.toString()).toEqual(
